@@ -45,3 +45,15 @@ Next step: push data to an online dashboard and start designing the small enclos
 ![image.png](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6Mjk4NCwicHVyIjoiYmxvYl9pZCJ9fQ==--4e7e87cc107efc2f168ddebd5f58f0a4903bd5a9/image.png)
   
 
+## 10/18/2025 10 PM - Connected Smart Plant Buddy to Blynk IoT  
+
+This time I worked on connecting my Smart Plant Buddy to the Blynk IoT platform. I added the Blynk library and set up a dashboard with three gauges: one for soil moisture, one for temperature, and one for humidity.
+
+The ESP32 now reads sensor values and sends them live to the Blynk dashboard through Wi-Fi. I also kept the RGB LED logic, so I can see the plant’s “mood” both physically and digitally.
+
+It was exciting to see the values update on the app in real time! I learned how to use virtual pins and how Blynk templates connect to hardware through Auth Tokens.
+
+Next step: design a small 3D-printed case to make the setup look cleaner and protect the sensors.
+
+![b881b0e3-bd76-493a-8d3d-57a80f5a5e1a.jpg](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6MzA4NywicHVyIjoiYmxvYl9pZCJ9fQ==--760fdefa0f64a73809e575919d3063a8220eee35/b881b0e3-bd76-493a-8d3d-57a80f5a5e1a.jpg)  
+
