@@ -10,7 +10,7 @@ This is my journal of the design and building process of **Smart Plant Buddy**.
 You can view this journal in more detail on **Hack Club Blueprint** [here](https://blueprint.hackclub.com/projects/670).
 
 
-## 10/18/2025 - Set up GitHub repository and project files  
+## 10/18/2025 2:45 PM - Set up GitHub repository and project files  
 
 This week I focused on setting up the GitHub repository for Smart Plant Buddy. I created the repo structure with folders for code, images, and documentation. I added the `README.md` and `JOURNAL.md` files, describing the project idea, parts list, and weekly progress plan.
 
@@ -19,5 +19,15 @@ I also uploaded the project banner and tested how Markdown formatting looks in t
 Next, I’ll start writing the base Arduino code for the Smart Plant Buddy, which will simulate sensor readings before the real hardware arrives.
 
 ![banner.png](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6Mjk2OSwicHVyIjoiYmxvYl9pZCJ9fQ==--41ec138868d7a4cd20634f3692aa80e67a326a0e/banner.png)
+  
+
+## 10/18/2025 2:54 PM - Wrote base Arduino sketch for Smart Plant Buddy  
+
+Today I created the base Arduino sketch for the Smart Plant Buddy. The goal was to set up the project’s core logic and make it testable even without the physical sensors yet.
+
+I wrote code that connects to Wi-Fi, defines the sensor and LED pins, and simulates soil moisture readings using random values. Depending on the value, the RGB LED changes color — red for dry soil and green for healthy moisture levels. I also added serial output for easier debugging.
+
+This first version helps confirm that the program structure works correctly before adding real sensors like the DHT22 and capacitive soil probe. Next, I’ll refine the code to read actual input data and send it to a web dashboard.
+![image.png](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6Mjk3MSwicHVyIjoiYmxvYl9pZCJ9fQ==--03216f85893e3f6b6405bde63ff59ae8547125c4/image.png)
   
 
