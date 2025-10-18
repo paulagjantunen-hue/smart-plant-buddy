@@ -31,3 +31,17 @@ This first version helps confirm that the program structure works correctly befo
 ![image.png](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6Mjk3MSwicHVyIjoiYmxvYl9pZCJ9fQ==--03216f85893e3f6b6405bde63ff59ae8547125c4/image.png)
   
 
+## 10/18/2025 3 PM - Integrated sensors and LED logic  
+
+Today I worked on adding real sensor functionality to the Smart Plant Buddy.
+I set up the Arduino sketch to read data from a soil moisture sensor and a DHT temperature/humidity sensor. The code also controls an RGB LED that changes color based on the moisture level — green when the plant is happy and red when the soil is too dry.
+
+I also added Wi-Fi connection code so the device can eventually send data online. Right now, all readings are printed to the Serial Monitor, which makes it easy to test without needing a full setup.
+
+The main challenge was getting consistent readings from the moisture sensor, but using analog input and a threshold value helped. The LED feedback works well — it’s satisfying to see it change colors as the “plant mood” changes.
+
+Next step: push data to an online dashboard and start designing the small enclosure for the sensor module.
+
+![image.png](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6Mjk4NCwicHVyIjoiYmxvYl9pZCJ9fQ==--4e7e87cc107efc2f168ddebd5f58f0a4903bd5a9/image.png)
+  
+
