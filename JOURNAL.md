@@ -45,7 +45,7 @@ Next step: push data to an online dashboard and start designing the small enclos
 ![image.png](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6Mjk4NCwicHVyIjoiYmxvYl9pZCJ9fQ==--4e7e87cc107efc2f168ddebd5f58f0a4903bd5a9/image.png)
   
 
-## 10/18/2025 10 PM - Connected Smart Plant Buddy to Blynk IoT  
+## 10/18/2025 10:46 PM - Connected Smart Plant Buddy to Blynk IoT  
 
 This time I worked on connecting my Smart Plant Buddy to the Blynk IoT platform. I added the Blynk library and set up a dashboard with three gauges: one for soil moisture, one for temperature, and one for humidity.
 
@@ -56,4 +56,13 @@ It was exciting to see the values update on the app in real time! I learned how 
 Next step: design a small 3D-printed case to make the setup look cleaner and protect the sensors.
 
 ![b881b0e3-bd76-493a-8d3d-57a80f5a5e1a.jpg](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6MzA4NywicHVyIjoiYmxvYl9pZCJ9fQ==--760fdefa0f64a73809e575919d3063a8220eee35/b881b0e3-bd76-493a-8d3d-57a80f5a5e1a.jpg)  
+
+## 10/18/2025 10:50 PM - Project Ready for Submission  
+
+I’ve brought the Smart Plant Buddy from an idea to a working IoT prototype. The device now reads soil moisture, temperature, and humidity, and displays live data on a Blynk dashboard through Wi-Fi. An RGB LED also changes color based on the soil’s moisture level, showing whether the plant needs water.
+
+I’ve logged the entire design process — from building the base Arduino sketch, to integrating real sensors, and finally connecting everything to the internet. I learned a lot about Wi-Fi connectivity, analog sensor calibration, and using Blynk’s virtual pins to create a live IoT dashboard.
+
+![breadboard.png](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6MzA5MCwicHVyIjoiYmxvYl9pZCJ9fQ==--bf80c686f6e5a8c2ee14a697a20c727364285cf8/breadboard.png)
+  
 
